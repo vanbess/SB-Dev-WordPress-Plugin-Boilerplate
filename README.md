@@ -1,33 +1,11 @@
-**_This repo has been archived. It is now read-only and will no longer be updated or maintained. You are welcome to fork it and create your own plugins using it. [More info here.](https://github.com/hlashbrooke/WordPress-Plugin-Template/issues/104)_**
-
----
-
-WordPress Plugin Template
+Silverback Dev WordPress Plugin Template
 =========================
 
 A robust and GPL-licensed code template for creating a standards-compliant WordPress plugin.
 
-
-## Why this template?
-
-After writing many WordPress plugins I slowly developed my own coding style and way of doing things - this template is the culmination of what I've learnt along the way. I use this template as a base for any plugin that I start building and I thought it might benefit more people if I shared it around.
-
 ## How do I use it?
 
-You can simply copy the files out of this repo and rename everything as you need it, but to make things easier I have included a [shell script](https://github.com/hlashbrooke/WordPress-Plugin-Template/blob/master/build-plugin.sh) in this repo that will automatically copy the files to a new folder, remove all traces of the existing git repo, rename everything in the files according to your new plugin name, and initialise a new git repo in the folder if you choose to do so.
-
-### Running the script
-
-You can run the script just like you would run any shell script - it does not take any arguments, so you don't need to worry about that. Once you start the script it will ask for three things:
-
-1. **Plugin name** - this must be the full name of your plugin, with correct capitalisation and spacing.
-2. **Destination folder** - this will be the folder where your new plugin will be created - typically this will be your `wp-content/plugins` folder. You can provide a path that is relative to the script, or an absolute path - either will work.
-3. **Include Grunt support (y/n)** - if you enter 'y' here then the Grunt files will be included in the new plugin folder.
-4. **Initialise new git repo (y/n)** - if you enter 'y' here then a git repo will be initialised in the new plugin folder.
-
-### API functions
-
-As of v3.0 of this template, there are a few libraries built into it that will make a number of common tasks a lot easier. I will expand on these libraries in future versions.
+Simply click on the 'Use this template' button at the top of this page to either create your own new repo based on this template, or to open this template in a codespace.
 
 #### Registering a new post type
 
@@ -83,13 +61,3 @@ This template includes the following features:
 + A complete and versatile settings class like you see [here](http://www.hughlashbrooke.com/complete-versatile-options-page-class-wordpress-plugin/)
 + A .pot file to make localisation easier
 + Full text of the GPLv2 license
-
-See the [changelog](https://github.com/hlashbrooke/WordPress-Plugin-Template/blob/master/changelog.txt) for a complete list of changes as the template develops.
-
-## I've got an idea/fix for the template
-
-If you would like to contribute to this template then please fork it and send a pull request. Please submit all pull requests to the `develop` branch. I'll merge the request if it fits into the goals for the template and credit you in the [changelog](https://github.com/hlashbrooke/WordPress-Plugin-Template/blob/master/changelog.txt).
-
-## This template is amazing! How can I ever repay you?
-
-There's no need to credit me in your code for this template, just go forth and use it to make the WordPress experience a little better.
