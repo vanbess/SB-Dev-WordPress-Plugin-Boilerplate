@@ -7,7 +7,7 @@ A robust and GPL-licensed code template for creating a standards-compliant WordP
 
 Simply click on the **'Use this template'** button at the top of this page to either create your own new repo based on this template, or to open this template in a codespace.
 
----
+
 
 ## Registering a new post type
 
@@ -29,7 +29,7 @@ Using the [taxonomy API](https://github.com/hlashbrooke/WordPress-Plugin-Templat
 
 This will register a new taxonomy with all the standard settings. If you would like to modify the taxonomy settings you can use the `{$taxonomy}_register_args` filter. See [the WordPress codex page](http://codex.wordpress.org/Function_Reference/register_taxonomy) for all available arguments.
 
----
+
 
 
 ## Defining your Settings Page Location
@@ -46,13 +46,13 @@ https://codex.wordpress.org/Function_Reference/add_options_page
 https://developer.wordpress.org/reference/functions/add_menu_page/
 https://developer.wordpress.org/reference/functions/add_submenu_page/
 
----
+
 
 ## Calling your Options
 
 Using the [Settings API](https://github.com/hlashbrooke/WordPress-Plugin-Template/blob/master/includes/class-wordpress-plugin-template-settings.php) and the wrapper function from the main plugin class you can easily store options from the WP admin like text boxes, radio options, dropdown, etc. You can call the values by using `id` that you have set under the `settings_fields` function. For example you have the `id` - `text_field`, you can call its value by using `get_option('wpt_text_field')`. Take note that by default, this plugin is using a prefix of `wpt_` before the id that you will be calling, you can override that value by changing it under the `__construct` function `$this->base` variable;
 
----
+
 
 ## What does this template give me?
 
